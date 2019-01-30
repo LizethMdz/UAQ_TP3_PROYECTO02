@@ -31,8 +31,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">SISTEMAS DE INFORMACIÓN</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-light js-scroll-trigger" href="#page-top">SISTEMAS DE INFORMACIÓN</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-light text-dark rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
@@ -53,184 +53,213 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-info text-black text-center" style="background-image: url('img/happiness.jpeg');">
+    <header class="masthead text-black text-center " style="background-image: url('img/happy.jpeg'); ">
       <div class="container">
-        <img src="img/lamtsoft.png" alt="LOGO">
-        <h1 class="text-uppercase mb-0">DECÁLOGO DE MAVILA</h1>
+        <h1 class="text-uppercase text-white mb-0">DECÁLOGO DE MAVILA</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Proyecto 2 -  TÓPICO III</h2>
+        <h2 class="font-weight-light text-white mb-0">Proyecto 2 -  TÓPICO III</h2>
       </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+
+    <section>
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Principios del Decálogo</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>ORDEN</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/orden.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>LIMPIEZA</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/limpieza.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                    <p>PUNTUALIDAD</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/puntualidad.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>RESPONSABILIDAD</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/responsabilidad.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>SUPERACIÓN</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/superacion.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>HONRADEZ</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/honradez.jpg" alt="">
-            </a>
-          </div>
-          <!--SECCION DEMAS--->
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>RESPETO A LOS DEMÁS</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/respeto.jpg" alt="">
-            </a>
-          </div>
+        <form method="post" action="result.php">
 
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-8">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>RESPETO A LA LEY</p>
+        <div class="container col-sm-10 cont">
+          <h3 class="text-center">Contesta las siguientes preguntas para evaluar tu nivel de proactividad</h3>
+          <br><br>
+
+            <div class="row-md-5 preguntas">
+
+                <div class="col-11 pregu">
+                  <p>PREGUNTA 1</p>
+                  <p class="col-12">¿Estás dispuesto a aceptar retos y desafíos o te asusta el cambio, la incertidumbre y las nuevas experiencias?</p>
+                   <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="preg-1" name="radio-1" required value="1">
+                    <label class="custom-control-label" for="preg-1">Nada</label>
+                  </div>
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="preg-2" name="radio-1" required value="2">
+                    <label class="custom-control-label" for="preg-2">Poco</label>
+
+                  </div>
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="preg-3" name="radio-1" required value="3">
+                    <label class="custom-control-label" for="preg-3">Más o menos</label>
+
+                  </div>
+
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="preg-4" name="radio-1" required value="4">
+                    <label class="custom-control-label" for="preg-4">Mucho</label>
+
+                  </div>
+
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="preg-5" name="radio-1" required value="5">
+                    <label class="custom-control-label" for="preg-5">Todo</label>
+
+                  </div>
+                </div>
+            </div>
+
+            <div class="row-md-5 preguntas">
+
+                <div class="col-11 pregu">
+                  <p>PREGUNTA 2</p>
+                  <p class="col-12 p-1">
+                  ¿Disfrutas tomando decisiones y emprendiendo la acción o
+                  prefieres que sea alguien más quien tenga esa responsabilidad?
+                  </p>
+                 <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-6" name="radio-2" required value="1">
+                  <label class="custom-control-label" for="preg-6">Nada</label>
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-7" name="radio-2" required value="2">
+                  <label class="custom-control-label" for="preg-7">Poco</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-8" name="radio-2" required value="3">
+                  <label class="custom-control-label" for="preg-8">Más o menos</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-9" name="radio-2" required value="4">
+                  <label class="custom-control-label" for="preg-9">Mucho</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-10" name="radio-2" required value="5">
+                  <label class="custom-control-label" for="preg-10">Todo</label>
+
                 </div>
               </div>
-              <img class="img-fluid" src="img/principios/ley.jpeg" alt="">
-            </a>
-          </div>
+            </div>
 
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>AMOR A TU TRABAJO</p>
+            <div class="row-md-5 preguntas">
+
+                <div class="col-11 pregu">
+                  <p>PREGUNTA 3</p>
+                  <p class="col-12">¿Tienes una actitud positiva frente al cambio o cada vez que aparece una nueva situación o persona te disgustas y te lleva un tiempo adaptarte?</p>
+                    <div class="custom-control custom-radio mb-3">
+                      <input type="radio" class="custom-control-input" id="preg-11" name="radio-3" required value="1">
+                      <label class="custom-control-label" for="preg-11">Nada</label>
+
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                      <input type="radio" class="custom-control-input" id="preg-12" name="radio-3" required value="2">
+                      <label class="custom-control-label" for="preg-12">Poco</label>
+
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                      <input type="radio" class="custom-control-input" id="preg-13" name="radio-3" required value="3">
+                      <label class="custom-control-label" for="preg-13">Más o menos</label>
+
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                      <input type="radio" class="custom-control-input" id="preg-14" name="radio-3" required value="4">
+                      <label class="custom-control-label" for="preg-14">Mucho</label>
+
+                    </div>
+                    <div class="custom-control custom-radio mb-3">
+                      <input type="radio" class="custom-control-input" id="preg-15" name="radio-3" required value="5">
+                      <label class="custom-control-label" for="preg-15">Todo</label>
+
+                    </div>
+              </div>
+            </div>
+
+            <div class="row-md-5 preguntas">
+
+                <div class="col-11 pregu">
+                  <p>PREGUNTA 4</p>
+                  <p class="col-12">¿Superas los obstáculos que se interponen en la consecución de tus objetivos o cuando vislumbras una piedra en tu camino te detienes a meditar y sueles dar marcha atrás?</p>
+                 <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-16" name="radio-4" required value="1">
+                  <label class="custom-control-label" for="preg-16">Nada</label>
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-17" name="radio-4" required value="2">
+                  <label class="custom-control-label" for="preg-17">Poco</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-18" name="radio-4" required value="3">
+                  <label class="custom-control-label" for="preg-18">Más o menos</label>
+
+                </div>
+
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-19" name="radio-4" required value="4">
+                  <label class="custom-control-label" for="preg-19">Mucho</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-20" name="radio-4" required value="5">
+                  <label class="custom-control-label" for="preg-20">Todo</label>
+
                 </div>
               </div>
-              <img class="img-fluid" src="img/principios/amorjob.jpg" alt="">
-            </a>
-          </div>
+            </div>
 
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>AHORRO</p>
+            <div class="row-md-5 preguntas">
+
+                <div class="col-11 pregu">
+                  <p>PREGUNTA 5</p>
+                  <p class="col-12">¿Te gusta asumir riesgos o prefieres un “pájaro en mano que cien volando”?</p>
+                 <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-21" name="radio-5" required value="1">
+                  <label class="custom-control-label" for="preg-21">Nada</label>
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-22" name="radio-5" required value="2">
+                  <label class="custom-control-label" for="preg-22">Poco</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-23" name="radio-5" required value="3">
+                  <label class="custom-control-label" for="preg-23">Más o menos</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-24" name="radio-5" required value="4">
+                  <label class="custom-control-label" for="preg-24">Mucho</label>
+
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                  <input type="radio" class="custom-control-input" id="preg-25" name="radio-5" required value="5">
+                  <label class="custom-control-label" for="preg-25">Todo</label>
+
                 </div>
               </div>
-              <img class="img-fluid" src="img/principios/ahorro.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+            </div>
 
-    <!-- About Section -->
-    <section class="bg-info text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">Introducción</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Como parte del desarrollo se presenta la importancia de estos principios
-            en nuestra vida personal. Sin duda no son tan sencillos de llevar a cabo en algunos casos,
-           sin embargo, debemos percatarnos de que si crecemos con ellos tendremos grandes oportunidades en la vida. </p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Les presentamos una pequeña actividad para medir el nivel
-            de principios que llevas a cabo todos los días.</p>
-          </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fas fa-arrow-circle-right mr-2"></i>
-            Siguiente!
-          </a>
-        </div>
-      </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="bg-light text-black mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-black">Opciones</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-6 text-center">
-            <a class="btn btn-xl btn-outline-dark" href="interaccion.php">
-              <i class="fas fa-arrow-circle-right mr-2"></i>
-              Interacción
-            </a>
-          </div>
-          <div class="col-lg-6 text-center">
-            <a class="btn btn-xl btn-outline-dark" href="autor.php">
-              <i class="fas fa-arrow-circle-right mr-2"></i>
-              Autor
-            </a>
-          </div>
-        </div>
 
+
+          </div>
+          <div class="container col-sm-10 text-center btn-next">
+            <button type="submit" class="btn btn-primary btn-lg">EVALUAR</button>
+          </div>
+        </form>
+
+        <!-- About Section -->
+        <section class="bg-white text-white mb-0" id="about">
+          <div class="container">
+            <div class="text-center mt-4">
+              <a class="btn btn-xl btn-outline-secondary" href="#">
+                <i class="fas fa-arrow-circle-left mr-2"></i>
+                Atras!
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
 

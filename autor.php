@@ -31,21 +31,21 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">SISTEMAS DE INFORMACIÓN</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-light js-scroll-trigger" href="#page-top">SISTEMAS DE INFORMACIÓN</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-light text-dark rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Principios</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.php">Principios</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Introducción</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="interaccion.php">Interacción</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="autor.php">Contacto</a>
             </li>
           </ul>
         </div>
@@ -53,188 +53,48 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-info text-black text-center" style="background-image: url('img/happiness.jpeg');">
+    <header class="masthead text-black text-center " style="background-image: url('img/happy.jpeg'); ">
       <div class="container">
-        <img src="img/lamtsoft.png" alt="LOGO">
-        <h1 class="text-uppercase mb-0">DECÁLOGO DE MAVILA</h1>
+        <h1 class="text-uppercase text-white mb-0">DECÁLOGO DE MAVILA</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Proyecto 2 -  TÓPICO III</h2>
+        <h2 class="font-weight-light text-white mb-0">Proyecto 2 -  TÓPICO III</h2>
       </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Principios del Decálogo</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>ORDEN</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/orden.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>LIMPIEZA</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/limpieza.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                    <p>PUNTUALIDAD</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/puntualidad.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>RESPONSABILIDAD</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/responsabilidad.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>SUPERACIÓN</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/superacion.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>HONRADEZ</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/honradez.jpg" alt="">
-            </a>
-          </div>
-          <!--SECCION DEMAS--->
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>RESPETO A LOS DEMÁS</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/respeto.jpg" alt="">
-            </a>
-          </div>
 
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-8">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>RESPETO A LA LEY</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/ley.jpeg" alt="">
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>AMOR A TU TRABAJO</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/amorjob.jpg" alt="">
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                  <p>AHORRO</p>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/principios/ahorro.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- About Section -->
-    <section class="bg-info text-white mb-0" id="about">
+    <section class="bg-white text-white mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">Introducción</h2>
+        <h2 class="text-center text-uppercase text-dark">AUTOR</h2>
         <hr class="star-light mb-5">
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Como parte del desarrollo se presenta la importancia de estos principios
-            en nuestra vida personal. Sin duda no son tan sencillos de llevar a cabo en algunos casos,
-           sin embargo, debemos percatarnos de que si crecemos con ellos tendremos grandes oportunidades en la vida. </p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Les presentamos una pequeña actividad para medir el nivel
-            de principios que llevas a cabo todos los días.</p>
+          <div class="col-lg-12 ml-auto text-dark text-center">
+            <div class="col-md-4 mx-auto">
+              <img class="image-autor mb-5" src="img/liz.jpg" alt="">
+            </div>
+            <p class="lead">UNIVERSIDAD AUTÓNOMA DE QUERÉTARO</p>
+
+            <p>Estudiante de la carrera de Ingenieria de Software
+            en la Facultad de Informatica de la UAQ. Voy en
+            septimo semestre.</p>
+
+            <p>Desarrollo de Sistemas de Información de Alta Precisión</p>
+
+            <p>Tel: 4422307755</p>
+
+            <p>Correo: lizeth.mtrejo@gmail.com</p>
+
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fas fa-arrow-circle-right mr-2"></i>
-            Siguiente!
+          <a class="btn btn-xl btn-outline-secondary" href="#">
+            <i class="fas fa-arrow-circle-left mr-2"></i>
+            Atras!
           </a>
         </div>
       </div>
     </section>
-
-    <!-- About Section -->
-    <section class="bg-light text-black mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-black">Opciones</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-6 text-center">
-            <a class="btn btn-xl btn-outline-dark" href="interaccion.php">
-              <i class="fas fa-arrow-circle-right mr-2"></i>
-              Interacción
-            </a>
-          </div>
-          <div class="col-lg-6 text-center">
-            <a class="btn btn-xl btn-outline-dark" href="autor.php">
-              <i class="fas fa-arrow-circle-right mr-2"></i>
-              Autor
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
 
     <!-- Footer -->
     <footer class="footer text-center">
