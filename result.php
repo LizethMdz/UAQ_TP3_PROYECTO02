@@ -131,7 +131,7 @@
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-secondary" href="index.php">
+          <a class="btn btn-xl btn-outline-secondary" href="index.html">
             <i class="fas fa-arrow-circle-left mr-2"></i>
             Atras!
           </a>
