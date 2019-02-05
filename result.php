@@ -95,25 +95,24 @@
                 <p class="text-center"> Tu Puntaje: <?php echo $porcentaje ?> % </p>
                 <?php
                   if($porcentaje > 21 && $porcentaje <= 40 ){
-                    echo "<p class='text-center'> Tu nivel está entre 20 y 40 entonces necesitas
-                    mejorar tus habitos personales, para que de alguna manera puedas sentirte
-                    mejor contigo mismo. </p>";
+                    echo "<p class='text-center'> Tu nivel está entre 20 y 40 entonces seria
+                    recomendable que cambiaras ciertos habitos que te ayuden a estar bien contigo mismo </p>";
                   }
 
                   if ($porcentaje > 41 && $porcentaje <= 60) {
-                    echo "<p class='text-center'> Tu nivel está entre 40 y 60 entonces tienes
-                    un porcentaje bueno, pero, puedes mejorar incrementando tus habitos. </p>";
+                    echo "<p class='text-center'> Tu nivel está entre 40 y 60 entonces, conoces
+                    a cerca de los principios, pero tal vez no muy seguido los llevas a cabo </p>";
                   }
 
                   if ($porcentaje > 61 && $porcentaje <= 80) {
-                    echo "<p class='text-center'> Tu nivel está entre 60 y 80 entonces posees un
-                    control adecuado en tu vida, por lo que, te gusta estar preparado para todo. </p>";
+                    echo "<p class='text-center'> Tu nivel está entre 60 y 80 entonces es
+                      evidente que llevas una vida estable y feliz </p> ";
                   }
 
                   if ($porcentaje > 81 && $porcentaje <= 100) {
                     echo "<p class='text-center'> Tu nivel está entre 80 y 100 entonces tienes
-                    un alto grado de proactividad, por lo que tu, tu eliges como
-                    actuar ante ciertas circunstancias. </p>";
+                    un alto grado de conocimiento y aplicación de cada uno de los Principios del
+                    Decálogo de Mavila </p>";
                   }
 
                 ?>
@@ -222,7 +221,7 @@
       },
 
       title: {
-        text: 'Proactividad'
+        text: 'Decálogo de Mavila'
       },
 
       pane: {
@@ -297,7 +296,7 @@
       },
 
       series: [{
-        name: 'Proactividad',
+        name: 'Decálogo de Mavila',
         data: [ <?php echo $porcentaje ?> ],
         tooltip: {
           valueSuffix: ' %'
