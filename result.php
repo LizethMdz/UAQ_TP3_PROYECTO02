@@ -87,7 +87,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <p class="text-center">Total de Puntos: <?php echo $suma ?></p>
-                <p class="text-center"> Puntaje: 25 Puntos = 100%</p>
+
                 <?php $suma;
                   $porcentaje = ($suma * 100)/25;
                 ?>
@@ -96,7 +96,7 @@
                 <?php
                   if($porcentaje > 21 && $porcentaje <= 40 ){
                     echo "<p class='text-center'> Tu nivel está entre 20 y 40 entonces seria
-                    recomendable que cambiaras ciertos habitos que te ayuden a estar bien contigo mismo </p>";
+                    recomendable que cambiaras ciertos hábitos que te ayuden a estar bien contigo mismo </p>";
                   }
 
                   if ($porcentaje > 41 && $porcentaje <= 60) {
